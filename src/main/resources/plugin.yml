@@ -1,0 +1,17 @@
+name: randomBlock
+version: '1.0-SNAPSHOT'
+main: me.shreyjain.randomBlock.RandomBlock
+api-version: '1.21'
+prefix: [ CurrencyItems ]
+load: STARTUP
+authors: [ Shrey Jain ]
+description: custom currency items for throwbacksmp
+website: https://shreyjain.me/
+
+commands:
+  randomblock:
+    description: Get a special random block item
+    usage: /randomblock [amount]
+    aliases: [rb, rblock]
+    permission: randomblock.give
+    permission-message: You don't have permission to use this command!
