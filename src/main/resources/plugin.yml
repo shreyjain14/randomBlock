@@ -1,7 +1,7 @@
 name: randomBlock
-version: '1.0-SNAPSHOT'
+version: '1.0.2'
 main: me.shreyjain.randomBlock.RandomBlock
-api-version: '1.21'
+api-version: '1.0.2'
 prefix: [ CurrencyItems ]
 load: STARTUP
 authors: [ Shrey Jain ]
